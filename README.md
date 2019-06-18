@@ -60,4 +60,11 @@ Then follow <a href="https://www.odoo.com/documentation/11.0/tutorials.html">the
 
     ![Pycharm](pycharm-setting.png)
     
+1.  **Configure Eclipse for Odoo**
+
+    ![Pycharm](eclipse-setting1.png)
+    
+    ![Pycharm](eclipse-setting2.png)
+    
+    ![Pycharm](eclipse-setting3.png)
     
