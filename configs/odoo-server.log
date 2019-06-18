@@ -150,3 +150,5 @@
 2019-06-18 15:56:33,565 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/action/load HTTP/1.1" 200 -
 2019-06-18 15:56:33,634 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
 2019-06-18 15:56:33,717 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-06-18 16:02:33,959 8418 INFO ? odoo.service.server: Initiating shutdown
+2019-06-18 16:02:33,960 8418 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
