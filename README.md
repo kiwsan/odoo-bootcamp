@@ -31,7 +31,7 @@ from the documentation.
 
 Then follow <a href="https://www.odoo.com/documentation/11.0/tutorials.html">the developer tutorials</a>
 
-##Quick start
+##  Quick start
 
 1.  **Create a new superuser in postgresSql on Docker container.**
 
