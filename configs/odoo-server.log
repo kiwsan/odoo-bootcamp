@@ -86,3 +86,67 @@
 2019-06-18 15:16:32,822 31668 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:16:32] "POST /web/action/load HTTP/1.1" 200 -
 2019-06-18 15:16:32,880 31668 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:16:32] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
 2019-06-18 15:16:32,930 31668 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:16:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-06-18 15:56:04,230 8418 INFO ? odoo: Odoo version 11.0
+2019-06-18 15:56:04,231 8418 INFO ? odoo: Using configuration file at /home/kiwsa/workspace/odoo-bootcamp/configs/odoo.conf
+2019-06-18 15:56:04,231 8418 INFO ? odoo: addons paths: ['/home/kiwsa/.local/share/Odoo/addons/11.0', '/home/kiwsa/workspace/odoo-bootcamp/addons', '/home/kiwsa/workspace/odoo-bootcamp/odoo/addons']
+2019-06-18 15:56:04,232 8418 INFO ? odoo: database: odoo11@localhost:5432
+2019-06-18 15:56:04,274 8418 INFO ? odoo.service.server: HTTP service (werkzeug) running on turtle:8069
+2019-06-18 15:56:04,475 8418 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2019-06-18 15:56:10,008 8418 INFO ? odoo.addons.sms.wizard.send_sms: The `phonenumbers` Python module is not available. Phone number validation will be skipped. Try `pip3 install phonenumbers` to install it.
+2019-06-18 15:56:10,512 8418 INFO ? odoo.http: HTTP Configuring static files
+2019-06-18 15:56:10,515 8418 WARNING ? odoo.http: Logged into database 'odoo12-bootcamp', but dbfilter rejects it; logging session out.
+2019-06-18 15:56:10,538 8418 INFO odoo11-bootcamp odoo.modules.loading: loading 1 modules...
+2019-06-18 15:56:10,557 8418 INFO odoo11-bootcamp odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2019-06-18 15:56:10,566 8418 INFO odoo11-bootcamp odoo.modules.loading: loading 11 modules...
+2019-06-18 15:56:10,597 8418 INFO odoo11-bootcamp odoo.modules.loading: 11 modules loaded in 0.03s, 0 queries
+2019-06-18 15:56:10,802 8418 INFO odoo11-bootcamp odoo.modules.loading: Modules loaded.
+2019-06-18 15:56:10,806 8418 INFO odoo11-bootcamp odoo.addons.base.ir.ir_http: Generating routing map
+2019-06-18 15:56:10,874 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:10] "GET / HTTP/1.1" 200 -
+2019-06-18 15:56:11,157 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:11] "GET /web HTTP/1.1" 303 -
+2019-06-18 15:56:12,040 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [261]
+2019-06-18 15:56:14,290 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [266]
+2019-06-18 15:56:14,358 8418 INFO odoo11-bootcamp odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2019-06-18 15:56:14,364 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/login HTTP/1.1" 200 -
+2019-06-18 15:56:14,448 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/content/270-ce93465/web.assets_common.0.css HTTP/1.1" 200 -
+2019-06-18 15:56:14,451 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/content/271-07cb17c/web.assets_frontend.0.css HTTP/1.1" 200 -
+2019-06-18 15:56:14,452 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/content/273-07cb17c/web.assets_frontend.js HTTP/1.1" 200 -
+2019-06-18 15:56:14,468 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/content/272-ce93465/web.assets_common.js HTTP/1.1" 200 -
+2019-06-18 15:56:14,803 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "GET /web/webclient/qweb?mods= HTTP/1.1" 200 -
+2019-06-18 15:56:14,807 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:14] "POST /web/webclient/bootstrap_translations HTTP/1.1" 200 -
+2019-06-18 15:56:20,464 8418 INFO odoo11-bootcamp odoo.addons.base.res.res_users: Login successful for db:odoo11-bootcamp login:admin@gmail.com from 127.0.0.1
+2019-06-18 15:56:20,474 8418 INFO odoo11-bootcamp odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2019-06-18 15:56:20,475 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:20] "POST /web/login HTTP/1.1" 200 -
+2019-06-18 15:56:22,571 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [263, 262]
+2019-06-18 15:56:22,830 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [264]
+2019-06-18 15:56:23,406 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [265]
+2019-06-18 15:56:23,911 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [267]
+2019-06-18 15:56:24,033 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [268]
+2019-06-18 15:56:24,140 8418 INFO odoo11-bootcamp odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [269]
+2019-06-18 15:56:24,215 8418 INFO odoo11-bootcamp odoo.modules.registry: At least one model cache has been invalidated, signaling through the database.
+2019-06-18 15:56:24,217 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web HTTP/1.1" 200 -
+2019-06-18 15:56:24,279 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/275-c4e96dc/web.assets_backend.1.css HTTP/1.1" 200 -
+2019-06-18 15:56:24,280 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/274-c4e96dc/web.assets_backend.0.css HTTP/1.1" 200 -
+2019-06-18 15:56:24,291 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/276-971b240/web_editor.summernote.0.css HTTP/1.1" 200 -
+2019-06-18 15:56:24,310 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/277-ebfc1d7/web_editor.assets_editor.0.css HTTP/1.1" 200 -
+2019-06-18 15:56:24,316 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/279-971b240/web_editor.summernote.js HTTP/1.1" 200 -
+2019-06-18 15:56:24,316 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/278-c4e96dc/web.assets_backend.js HTTP/1.1" 200 -
+2019-06-18 15:56:24,326 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/content/280-ebfc1d7/web_editor.assets_editor.js HTTP/1.1" 200 -
+2019-06-18 15:56:24,547 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/webclient/qweb?mods=web,base,base_import,iap,web_diagram,web_editor,web_kanban_gauge,web_planner,web_settings_dashboard,web_tour HTTP/1.1" 200 -
+2019-06-18 15:56:24,601 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/webclient/translations HTTP/1.1" 200 -
+2019-06-18 15:56:24,637 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/dataset/call HTTP/1.1" 200 -
+2019-06-18 15:56:24,724 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2019-06-18 15:56:24,742 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2019-06-18 15:56:24,747 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2019-06-18 15:56:24,843 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/action/load HTTP/1.1" 200 -
+2019-06-18 15:56:24,949 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:24] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2019-06-18 15:56:25,018 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2019-06-18 15:56:32,964 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:32] "GET /web HTTP/1.1" 200 -
+2019-06-18 15:56:33,294 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "GET /web/webclient/qweb?mods=web,base,base_import,iap,web_diagram,web_editor,web_kanban_gauge,web_planner,web_settings_dashboard,web_tour HTTP/1.1" 200 -
+2019-06-18 15:56:33,351 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/call HTTP/1.1" 200 -
+2019-06-18 15:56:33,453 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/webclient/translations HTTP/1.1" 200 -
+2019-06-18 15:56:33,483 8418 INFO ? werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2019-06-18 15:56:33,525 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2019-06-18 15:56:33,535 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/call_kw/web.planner/search_read HTTP/1.1" 200 -
+2019-06-18 15:56:33,565 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/action/load HTTP/1.1" 200 -
+2019-06-18 15:56:33,634 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 -
+2019-06-18 15:56:33,717 8418 INFO odoo11-bootcamp werkzeug: 127.0.0.1 - - [18/Jun/2019 15:56:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
