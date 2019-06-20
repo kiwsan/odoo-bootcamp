@@ -41,7 +41,7 @@ Then follow <a href="https://www.odoo.com/documentation/11.0/tutorials.html">the
     - -U project -W project The command to execute to the running container
     - U user
     - W password
-    - project the database you want to connect to.
+    - database-name the database you want to connect to.
 
     ```sh
     $ CREATE USER <username> WITH SUPERUSER PASSWORD '<password>';
